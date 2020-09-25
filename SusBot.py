@@ -111,4 +111,4 @@ class Music(commands.cog):
 
         await ctx.send('Now playing: {}'.format(player.title))
 
-client.run("NzE5Nzk3OTI3NDA0MzcyMDEw.Xt_Ydg.OfJmj7IEwIYtHiUIZtYG_8oH3GE")
+client.run("")

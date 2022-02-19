@@ -5,22 +5,28 @@ host = 'https://api.gotinder.com'
 import json
 
 
-DEFAULT_TOKEN = 'b852cc05-2e8b-409e-92a4-3ddbb8634d0b'
 
 
 def setToken(user):
     with open('users.json',"r") as f:
         data = json.load(f)
         for i in data:
-            if data['username'] == user.name:
-                tinder_token = data['tinderToken']
+            if i['username'] == user.name:
+                tinder_token = i['tinderToken']
+                return tinder_token
+
 
 def addToken(user,token):
-    with open('users.json',"r") as f:
+    with open('users.json',"r+") as f:
         data = json.load(f)
         for i in data:
-            if data['username'] == user.name:
-                data['tinderToken'] = token
+            if i['username'] == user.name:
+                i['tinderToken'] = token
+                f.seek(0)
+                json.dump(data,f)
+                
+                
+
 
 def check(user):
     with open('users.json',"r") as f:

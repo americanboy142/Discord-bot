@@ -5,7 +5,6 @@ import requests
 #import SusBot
 import config
 
-tinder_token = config.DEFAULT_TOKEN
 
 #token = config.getToken()
 

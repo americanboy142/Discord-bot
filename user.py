@@ -1,4 +1,5 @@
 import json
+from os import truncate
 #import config
 #import SusBot
 #fileName = 'users.json'
@@ -56,5 +57,28 @@ def giveCredits(user):
 		for i in data:
 			if user.name == i["username"]:
 				i['credits'] += 200
+				f.seek(0)
+				json.dump(data,f)
+
+
+def winlose(user,credits,bool):
+	with open('users.json','r+') as f:
+		data = json.load(f)
+		for i in data:
+			if user.name == i["username"]:
+				if bool == True:
+					i['credits'] += int(credits)
+				if bool == False:
+					i['credits'] -= int(credits)
+				f.seek(0)
+				json.dump(data,f)
+
+
+def takeCredits(user,credits):
+	with open('users.json','r+') as f:
+		data = json.load(f)
+		for i in data:
+			if user.name == i["username"]:
+				i['credits'] -= int(credits)
 				f.seek(0)
 				json.dump(data,f)

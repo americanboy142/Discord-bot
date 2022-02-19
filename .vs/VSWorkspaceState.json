@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\tinder_bot",
-    "\\venv\\Scripts"
+    "\\cogs"
   ],
-  "SelectedNode": "\\tinder_bot\\features.py",
+  "SelectedNode": "\\SusBot.py",
   "PreviewInSolutionExplorer": false
 }

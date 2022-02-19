@@ -14,8 +14,8 @@ def getInfo():
     person_id = persons[0]['user']['_id']                           #id
     photoDeal = persons[0]['user']['photos']
     photos = []
-    for photo in photoDeal
-    photos.append(photo['url'] )                            #photo
+    for photo in photoDeal:
+        photos.append(photo['url'] )                            #photo
     name = persons[0]['user']['name']                         #name
     birth_year = maya.parse(persons[0]['user']['birth_date']).datetime().year
     age = date.today().year - birth_year                     #age

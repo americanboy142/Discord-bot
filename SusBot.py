@@ -31,12 +31,10 @@ bot.load_extension("cogs.music")
 print("all loaded")
 
 
-menu = DefaultMenu('prev', 'next', 'exit') # You can copy-paste any icons you want.
+menu = DefaultMenu('prev', 'next', 'exit')
 bot.help_command = PrettyHelp(navigation=menu, color=discord.Colour.red()) 
-# The color can be whatever you want, including normal color codes, 
-# I just like the discord green personally.
 
 
 
 
-bot.run("")
+bot.run("##discord Tocken##")

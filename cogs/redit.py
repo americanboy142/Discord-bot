@@ -5,12 +5,12 @@ import json
 import random
 
 class Redit(Cog):
-    CLIENT_ID = 'm4cAwxJ5vGFPtR2PRr7tyw'
-    SECRET_KEY = 'S8m3Bk3xiBFxMr_lFN29901DNz7IvA'
+    CLIENT_ID = ''
+    SECRET_KEY = ''
     data = {
         'grant_type': 'password',
-        'username': 'americanboy1422',
-        'password': 'honda142'
+        'username': '',
+        'password': ''
         }
     headers = {'User-Agent': 'MyAPI/0.0.1'}
     host = 'https://oauth.reddit.com/r'

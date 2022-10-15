@@ -4,7 +4,9 @@ as well as other stuff. Named after my discord server, that was created in highs
 
 Most code is within [cogs](cogs) file 
 - main files are: 
-- [cogs/](cogs)
+  - [redit](cogs/redit.py)
+  - [casino](cogs/casino.py)
+  - [tinder](cogs/tinder.py)
 Each cog is a different file most are only one class. They are discords way of grouping things.
 
 Things other then [SusBot](SusBot.py) file have been converted to cog format but have not been deleted, but they are unused,

@@ -10,7 +10,7 @@ Most code is within [cogs](cogs) file
     - casino games connected to the bots currency 
       - Blackjack
       - Slots
-      - coinflip
+      - Coinflip
       - Dice roll
   - [tinder](cogs/tinder.py)
     - Enter tinder api key through discort or through [config](config.py)

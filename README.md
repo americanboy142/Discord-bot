@@ -7,6 +7,7 @@ Most code is within [cogs](cogs) file
   - [redit](cogs/redit.py)
   - [casino](cogs/casino.py)
   - [tinder](cogs/tinder.py)
-Each cog is a different file most are only one class. They are discords way of grouping things.
+  
+Each cog is a different file and a different class. They are discords way of grouping things.
 
 Things other then [SusBot](SusBot.py) file have been converted to cog format but have not been deleted, but they are unused,

@@ -10,4 +10,4 @@ Most code is within [cogs](cogs) file
   
 Each cog is a different file and a different class. They are discords way of grouping things.
 
-Things other then [SusBot](SusBot.py) file have been converted to cog format but have not been deleted, but they are unused,
+Things other then [SusBot.py](SusBot.py) have been converted to a cog format but have not been deleted, but they are unused,

@@ -10,6 +10,8 @@ Most code is within [cogs](cogs) file
     - casino games connected to the bots currency 
       - Blackjack
       - Slots
+      - coinflip
+      - Dice roll
   - [tinder](cogs/tinder.py)
     - Enter tinder api key through discort or through [config](config.py)
     - Bot connects to the account of who ever tpyes the initial comand. everyone can the respond like or dislike the first tinder recomendation. 
